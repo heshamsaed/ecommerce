@@ -1,0 +1,161 @@
+/* main reuz*/
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+.asterisk{
+    position: absolute;
+    font-size: 30px;
+    color: red;
+    right: 32px;
+    top: 8px;
+}
+/*******************************************************************************/
+/* style all input elements with a required attribute */
+/*select.error,
+textarea.error,
+input.error {
+    color:#FF0000;
+}
+   .my-error-class {
+    color:#FF0000;  /* red */
+  /*  }
+    .my-valid-class {
+    color:#00CC00; /* green */
+  /*  }
+*/
+/**
+ * style input elements that have a required
+ * attribute and a focus state
+ */
+/*input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}*/
+
+/**
+ * style input elements that have a required
+ * attribute and a hover state
+ */
+/*input:required:hover {
+  opacity: 1;
+}*/
+/**********************************************************************************/
+/* main reuz*/
+/*start form login*/
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4{
+    color:#888;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: #EAEAEA;
+}
+.login .btn{
+    background-color:#008dde;
+}
+/*End form login*/
+/*start */
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    }
+.navbr > li > a,
+.navbar-brand{
+    padding: 15px 12px;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu{
+    
+    background-color: #3498db;
+}
+
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0;
+    font-size:1em;
+    border: none;
+    border-radius: 0;
+}
+.dropdown-menu>li>a {
+    color: #fff;
+    padding: 10px 15px;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover{
+    color: #fff;
+    background-color: #8e44ad;
+}
+.form-control{
+    position: relative;
+}
+/*start dashbord page*/
+.home-stats .stat {
+    background-color: #EEE;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.home-stats .stat a{
+    color: #FFF;
+
+}
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 50px;
+}
+.home-stats .member{
+    background-color: #27ae60;
+}
+.home-stats .pending{
+    background-color: #2c3e50;
+}
+.home-stats .item{
+    background-color: #c0392b;
+}
+.home-stats .comment{
+    background-color: #f39c12;
+}
+
+.latest {
+    margin-top: 30px;
+}
+
+/*End dashbord page*/
+/*start member page*/
+h1 {
+    font-size: 55px;
+    color:#666;
+    margin: 40px 0;
+    font-weight: bold;
+}
+.showpass{
+   position: absolute;
+    right: -32px;
+    top: 8px;
+}
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+.actived{
+    margin-left: 5px;
+}
+/*end member page*/
